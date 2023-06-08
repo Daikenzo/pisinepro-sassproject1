@@ -1,0 +1,22 @@
+/*Main SCSS
+Author:Daikenzo Wolfdry*/
+
+//abstracts
+@import 'abstracts/variables';
+@import 'abstracts/function';
+@import 'abstracts/mixings';
+
+//base
+@import 'base/typography';
+@import 'base/utilities';
+
+//components
+
+@import 'components/navbar';
+@import 'components/box-contents';
+@import 'components/buttons';
+@import 'components/cardbox';
+
+//layouts specifies
+@import 'layouts/header';
+@import 'layouts/footer';

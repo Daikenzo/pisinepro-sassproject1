@@ -12,53 +12,73 @@
     <link rel="stylesheet" href="assets/css/styles.css" >
 </head>
 <body>
-  <!--
-    <header class="header-container container-fluid" id="Top-Page">
-        <nav class="navbar nav-color navbar-expand-lg navbar-expand-m" id="NavBar-header">
-          <div class="">
-            <a class="navbar-brand" href="#">
-              <div class="logo-img img-container" src="" alt="Logo">
-                <img src="" alt="" class="logo-img img-fluid"">
-              </div>
-            </a>
-            
-            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+  <header class="header-container  bg-body-tertiary " id="Top-Page">
+    <nav class="header-nav nav  navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+      <div class="container-fluid row align-items-center">
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-              <ul class="navbar-nav me-2">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Our Agency</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Service-content">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Feature-content">Feature</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Contact-content">Contact</a>
-                  </li> 
-              </ul>
-            </div>
-    
-          </div>
-    
-        </nav>
-    </header>-->
-    
-    
-    <main>
-
-      <section  class=".prefooter container-fluid col-12">
-        <div class="container col-6">
-          <div class="row">
-            <p>azerty</p>
-            <p>aa]</p>
+        <div class="nav navbar-container align-items-center">
+          <a href="" class="navbar-brand img-container logo col-12 col-lg-6 col-xl-4" id="home">
+            <img src="assets/img/Logo.png" alt="Logo" class="logo-img img-fluid logo" id="Logo-Header">
+          </a>
+          
+          <button class="navbar-toggler nav col-1 align-items-center justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+        
+          
+          <div class=" col-12 col-lg-4 col-xl-6 align-items-center justify-content-end collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link" aria-curent="page" href="#">Our Agency</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Service-content">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Feature-content">Feature</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#Contact-content">Contact</a>
+                </li> 
+            </ul>
           </div>
         </div>
-      </section>
-    </main>
+
+      </div>
+      
+
+    </nav>
+  </header>
+
+  <main>
+    <section id="OurAgency" class="agency container-fluid">
+      <div class="card mb-3 container box-containers position-relative">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="col-md-4 box-content-mask position-relative">
+            <img src="assets/img/mockup-travel-iphone.png" class="img-fluid rounded-start" alt="...">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section  class=".prefooter container-fluid col-12">
+      <div class="container col-6">
+        <div class="row">
+          <p>azerty</p>
+          <p>aa]</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- script js-->
+  <script src="assets/lib/bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -8,5 +8,14 @@ Author:Daikenzo Wolfdry*/
 
 #39385A*/
 /*$logo-pic:if($alt-color,"../img/Logo-white.png","..img/Logo.png");*/
+.box-containers {
+  padding: 10px 20px;
+  background-color: #E781CB;
+  color: #1D1D1F;
+}
+
+.header-container {
+  background-color: #F5F5F5;
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,2 +1,11 @@
 // SASS Function
 
+@mixin content-Card{
+    padding: 10px 20px;
+    background-color: $bg-PrimColor;
+    color:$bg-SecColor;
+}
+
+.box-content-mask{
+    
+}
